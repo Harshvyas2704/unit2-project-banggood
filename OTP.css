@@ -1,0 +1,33 @@
+
+/*
+otp section starts */
+
+h1{
+    text-align: center;
+    color: dimgrey;
+   
+}
+.otp
+{
+    margin-top: 30px;
+}
+div{
+    text-align: center;
+}
+#otp
+{
+    padding: 5px;
+}
+button{
+    color: white;
+    background-color: rgb(236, 65, 34);
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+  background-color: cadetblue;
+}
+/* otp section ends */

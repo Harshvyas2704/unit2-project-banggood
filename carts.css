@@ -1,0 +1,251 @@
+*
+ {
+    
+    font-family: 'Open Sans', sans-serif;
+ }
+ 
+
+.firstDiv
+{
+    margin-top: 30px;
+    height: 10vh;
+}
+#orderSummery
+{
+    margin-top: 30px;
+}
+#orderSummery h2
+{
+    margin-bottom: 38px;
+}
+#addedItems
+{
+    margin-top: 50px;
+}
+ /* container - items present inside cart starts */
+        #container>div{
+            display: flex;
+        }
+        
+        
+        #innerbox{
+             display: flex;
+             width: 100px;
+             justify-content: space-between;
+        }
+/* container- items present inside cart starts */
+
+
+/*no of items present inside cart starts */
+        #cartLength{
+            font-size: 20px;
+        }
+
+
+ /* summary of order including total price and promo code starts     */
+        #subtotal{
+            display: flex;
+            justify-content: space-between;
+            font-family: sans-serif;
+            color: gray;
+            /* border: 1px red solid; */
+            margin-bottom: 28px;
+        }
+
+        #total{
+            display: flex;
+            justify-content: space-between;
+            font-family: sans-serif;
+        }
+
+        #total>div+div{
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        #orderSummery>button{
+            margin-left: 21px;
+            text-align: center;
+            color: white;
+            background-color:#ff6a27;
+            padding: 10px 50px 10px 50px;
+            border-radius: 5px;
+            border: 0;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            font-family: sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        #orderSummery>button:hover{
+            background-color: rgb(119, 133, 133);
+        }
+        
+
+        #total>div+div{
+            margin-top: 15px;
+        }
+        /* #subtotal>div+div{
+            margin-top: 10px;
+        } */
+        #dabitCards> img{
+              
+            width: 100%;
+            height: 130px;
+            margin: auto;
+            margin-top: 20px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        }
+        
+        .line{
+            color: gray;
+            margin-bottom: 20px;
+        }
+        #total
+        {
+            margin-bottom: 20px;
+        }
+        #total p{
+            font-weight: bold;
+            font-size: 24px;
+            margin-top: 12px;
+        }
+        #checkoutBtn
+        {
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        #promo-btn{
+            text-align: center;
+            padding-top: 15px;
+        }
+        #promo-btn p
+        {
+            margin-bottom: 18px;
+        }
+        #promo-btn h4
+        {
+            margin-bottom: 18px;
+        }
+        #btn{
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+            background-color:#ff6a27;
+            border-radius: 5px;
+            border: 0;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        #btn:hover{
+            background-color: rgb(119, 133, 133);
+        }
+  /* summary of order including total price and promo code starts     */
+
+
+
+
+     /* Applying display grid area    */
+        #parent{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(3,100px);
+            gap: 10px;
+            grid-template-areas: "a a a a b b"
+                                 "c c c c b b"
+                                 "c c c c d d";
+
+             width: 80%;
+            margin: auto;
+            margin-bottom: 450px;
+            
+        }
+        #parent>div{
+            /* border: 1px solid red; */
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            font-family: sans-serif;
+        }
+
+        #parent>div:nth-child(1)
+        {
+            grid-area: a;
+            padding: 20px;
+        }
+
+        #parent>div:nth-child(2)
+        {
+            grid-area: b;
+            height: 320px;
+            padding: 20px;
+            line-height: 0.5;
+            
+            
+        }
+        #parent>div:nth-child(3)
+        {
+            grid-area: c;
+            box-shadow: none;
+            
+        }
+        #parent>div:nth-child(4)
+        {
+            grid-area: d;
+            margin-top: 150px;
+            height: 150px;
+            
+        }
+
+
+/* container showing items inside cart starts*/
+        #container{
+            width: 100%;
+            padding: 20px;
+            
+            line-height: 0.5;
+            display: grid;
+            grid-template-columns: repeat(1,ifr);
+            grid-template-rows: auto;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        img{
+            height:128px;
+            width: 128px;
+            margin-bottom: 15px;
+        }
+
+        #box2{
+            padding-left: 20px;
+        }
+        #innerbox button{
+            margin-left: 420px;
+            /* margin-right: 20px; */
+            color: white;
+            background: linear-gradient(270deg,#ff4733,#ff6e26); 
+            border: 0;
+            padding: 8px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-family: sans-serif;
+            
+        }
+        #RemoveItemBtn:hover{
+          background-color: cadetblue;
+        }
+        
+        #innerbox>p{
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+         /* container showing items inside cart ends*/
+    

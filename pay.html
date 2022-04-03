@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="pay.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="https://kit.fontawesome.com/5091a168cb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar starts -->
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <h1 class="name">Ban<span>gg</span>ood</h1>
+                    <p>Global leading online shop</p>
+                </div>
+                <div>
+                    <span>
+                        <input type="text" placeholder="Search here" id="search">
+                        <i class="fa-solid fa-magnifying-glass i"></i>
+                    </span>
+                </div>
+                <div class="country">
+                    <span>
+                        <img src="https://cdn.pixabay.com/photo/2012/04/10/23/03/india-26828__340.png" alt="Flag">
+                        <p class="ship">ship to</p>
+                    </span>
+                    <p class="ship india">INDIA</p>
+                </div>
+                <div class="userInfo">
+                    <i class="fa-solid fa-user i"></i>
+                    <p class="hello">Hello</p>
+                    <p id="userName">---</p>
+                    <div class="menu">
+                        <p class="signIn">Sign In</p>
+                        <p class="joinUs">Join us</p>
+                        <div class="sub-menu">
+                            <p>My Orders</p>
+                            <p>My Wishlist</p>
+                            <p>My Coupons</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart">
+                    <a href="carts.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <div class="total">
+                        <p class="total-item"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="categories">
+                <p id="gotoMen">Men's</p>
+                <p id="gotoWomen">Women's</p>
+                <p id="gotoShoes">Shoes's</p>
+                <p id="gotoSports">Sports's</p>
+                <p id="gotoElectronics">Electronics's</p>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar ends -->
+
+    <!-- main container starts -->
+
+    <div id="container">
+        <div id="addressBox">
+
+            <!-- form of Address details starts -->
+            <form id="address">
+                <h3>Shipping Address Details</h3>
+                <p></p>
+                <input type="text" placeholder="Name" id="personName" />
+                <input type="number" placeholder="Mobile Number" id="mobileNum" />
+                <input type="text" placeholder="Address Line 1 " id="address1"/>
+                <input type="text" placeholder="Address Line 2 " id="address2"/>
+                <input type="text" placeholder="country" id="country">
+                <select name="text" id="state">
+                    <option value="">state</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Gujrat">Gujrat</option>
+                    <option value="Rajastan">Rajastan</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                </select>
+                <select name="text" id="city">
+                    <option value="">City</option>
+                    <option value="Gonda">Gonda</option>
+                    <option value="bhopal">bhopal</option>
+                    <option value="Rajkot">Rajkot</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Akola">Akola</option>
+                </select>
+                <input type="number" placeholder="Zip code/Pincode" id="pinCode">
+                <input type="submit" id="getDetails" value="Click here to get Details">
+                <h2></h2>
+                <input id="savebtn" type="submit" value="Save">
+            </form>
+            <!-- form of Address details ends -->
+        </div>
+
+        <!-- form of debit card details starts -->
+        <div id="CardDetails">
+
+            <h3>Payment Gateway</h3>
+            <form id="card">
+
+                <label>Card:-</label>
+                <select name="name1" id="cardName">
+                    <option value=""> Enter Card Name ie. visa</option>
+                    <option value="VISA">VISA</option>
+                    <option value="Master_card">Master_card</option>
+                    <option value="RuPay">RuPay</option>
+                    <option value="American_Express">American_Express</option>
+                </select>
+
+                <label>Card Number :</label>
+                <input id="cardNo" type="number" placeholder="Enter 16 digit number" />
+
+                <label> CVV Number :</label>
+                <input id="cvv" type="password" placeholder="Enter CVV Number" value="" />
+
+                <label>Valid till :</label>
+                <p>Expiry Date: <br>
+                    <select name="month" id="m1">
+                        <option value="">MM</option>
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                    <spna>
+                        <select name="year" id="y1">
+                            <option value="">YY</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                        </select>
+
+                    </spna>
+                </p>
+
+                <label>Name:</label>
+                <input id="holder" type="text" placeholder="Enter Card-holder's Name" />
+                <p></p>
+                <input type="submit" value="Validate your card details" />
+
+            </form>
+
+
+            <!-- form of debit card details ends -->
+            <h1></h1>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="pay.js"></script>
+<script src="fav.js"></script>

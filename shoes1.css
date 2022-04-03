@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.flashDeals
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 55vh;
+    /* border: 1px red solid; */
+    padding: 25px;
+}
+#Related
+{
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px red solid; */
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 8px;
+    
+
+}
+.flash
+{
+    width: 80%;
+    padding: 10px;
+    /* border: 1px blue solid; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 55vh;
+}
+#heading1
+{
+    display: flex;
+}
+#flashDealHead
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#block1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container{
+    width: 100vw;
+    padding: 25px;
+    height: 1500px;
+    margin: auto;
+    /* margin-left: 15px; */
+    
+}
+#block2{
+    width: 17%;
+    gap: 20px
+    
+}
+#block2 div{
+    line-height: 2.5;
+    margin-bottom: 120px;
+    margin-left: 20px;
+
+}
+#block2 div p{
+    color: gray;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-left: 25px;
+    margin-bottom: 450px;
+}
+
+#container div h4{
+    color: #ff6e26;
+}
+#container div p{
+    color: gray;
+}
+
+#container div{
+    margin-bottom: 30px;
+}
+
+#container div h4+p{
+    text-decoration: line-through;
+}
+
+#container div{
+    line-height: 1.5;
+}
+
+#container img{
+    border-radius: 8px;
+}
+
+button{
+
+    background-color: #ff6e26;
+    color: white;
+    border: 0;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: #2d2d38;
+}
+
+#container #type{
+    color: #2d2d38;
+    font-weight: bold;
+    font-size: 12px;
+}

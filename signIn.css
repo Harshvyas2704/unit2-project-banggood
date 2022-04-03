@@ -1,0 +1,195 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+/* Universal style end */
+/* body style start */
+body
+{
+    background-color: whitesmoke;
+}
+/* body style end */
+/* nav start */
+.nav
+{
+    height: 95px;
+    background-color: white;
+}
+.main_logo
+{
+    height: 90px;
+    margin-top: -10px;
+    margin-left: 190px;
+}
+.tag_line
+{
+    color: gray;
+    margin-top: -30px;
+    margin-left: 201px;
+    font-size: 12px;
+}
+/* nav style end */
+.loginPage
+{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px;
+    background-color: white;
+    height: 480px;
+    border-radius: 5px;
+}
+.loginPage:hover
+{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.signIn
+{
+    color: #ff6e26;
+    font-weight: 600;  
+    font-size: 18px;
+    /* border-bottom: 2px solid #ff6e26; */
+    /* text-decoration: underline; */
+    padding: 3px;
+    width: 20%;
+    margin-left: 10px;
+}
+.signInType ::after
+{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff6e26;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+}
+.signInType :hover ::after
+{
+    width: 100%;
+}
+.logIn
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.signInType
+{
+    display: flex;
+    justify-content: space-evenly;
+} 
+.signInType > span
+{
+    margin-top: 35px;
+    font-size: 18px; 
+}
+#userInput > input
+{
+    display: block;
+    height: 42px;
+    width: 336px;
+    margin-top: 30px;
+    margin-left: 29px;
+    font-size: 13px;
+    padding-left: 10px;
+    border: 0.5px rgb(0,0,0, 0.1) solid;
+    cursor: text;
+    font-weight: 400px;
+    border-radius: 5px;
+}
+#userInput > #signInSubmit
+{
+    background: linear-gradient(270deg,#ff4733,#ff6e26);
+    font-size: 18px;
+    color: white;
+}
+.forget
+{
+    margin-left: 29px;
+    font-size: 13px;
+    color: #999;
+    padding-top: 1px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.quick
+{
+    font-size: 19px;
+    color: #999;
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 600;
+}
+/* icons style */
+.icons
+{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    color: red;
+    cursor: pointer;
+}
+.fa-apple
+{
+    color: black;
+    font-size: 40px;
+}
+.fa-facebook
+{
+    color: rgb(98, 98, 167);
+    font-size: 40px;
+}
+.fa-google
+{
+    font-size: 40px;
+}
+.fa-twitter
+{
+    color: blue;
+    font-size: 40px;
+}
+/* icon style end */
+/* register style start */
+#register
+{
+    display: none;
+}
+.userInput1 > .u
+{
+    display: block;
+    height: 42px;
+    width: 336px;
+    margin-top: 30px;
+    margin-left: 29px;
+    font-size: 13px;
+    padding-left: 10px;
+    border: 0.5px rgb(0,0,0, 0.1) solid;
+    cursor: text;
+    font-weight: 400px;
+    border-radius: 5px;
+}
+.userInput1 > #submit
+{
+    background: linear-gradient(270deg,#ff4733,#ff6e26);
+    font-size: 18px;
+    color: white;
+}
+label
+{
+    font-size: 13px;
+    color: #999;
+}
+.tc
+{
+    margin-top: 18px;
+    margin-left: 29px;
+}
+.pp
+{
+    margin-left: 29px;
+}
+/* register style end */

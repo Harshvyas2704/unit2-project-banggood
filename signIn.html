@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signIn.css">
+    <script src="https://kit.fontawesome.com/42af971d0e.js" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <section class="nav">
+            <a href="index.html"><img src="banggood logo.png" alt="banggood logo" class="main_logo"> </a>
+            <p class="tag_line">Global leading online shop</p>
+        </section>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main>
+        <section>
+            <div class="loginPage">
+                <!-- reg type start -->
+                <div class="signInType">
+                    <span class="signIn" onclick="signInFun()">SIGN IN</span>
+                    <span class="logIn" onclick="registerFun()">REGISTER</span>
+                </div>
+                 <!-- reg type end -->
+                <!-- user input start -->           
+                <div id="signIn">
+                    <form id="userInput">
+                        <input type="email" placeholder="Email" id="signInEmail">
+                        <input type="password" placeholder="Password" id="signInPassword">
+                        <input type="submit" id="signInSubmit" value="Sign In">
+                    </form>
+                    <!-- user input end -->
+                    <p class="forget">Forgot your password?</p>
+                    <p class="quick">Quick Access With</p>
+                    <!-- icons start -->
+                    <div class="icons">
+                        <i class="fa-brands fa-apple i"></i>
+                        <i class="fa-brands fa-facebook i"></i>
+                        <i class="fa-brands fa-google i"></i>
+                        <i class="fa-brands fa-twitter i"></i>
+                    </div>
+                </div>
+                <!-- icons end -->
+                <!-- register start -->
+                <div id="register">
+                    <form class="userInput1">
+                        <input type="email" placeholder="Email" id="userEmail" class="u">
+                        <input type="password" placeholder="Password" id="userPassword" class="u">
+                        <!-- tc start -->
+                        <div class="tc">
+                            <input type="checkbox" id="tcCheckbox" value="tc">
+                            <label for="tc">I agree to banggood.com Terms of use</label>
+                        </div>
+                        <div class="pp">
+                            <input type="checkbox" id="ppCheckbox" value="pp">
+                            <label for="pp">I agree to banggood.com Privacy Policy</label>
+                        </div>
+                        <!-- tc end -->
+                        <input type="submit" id="submit" value="Create Your Account" class="u">
+                    </form> 
+                <!-- register end -->
+                    <p class="quick">Quick Access With</p>
+                    <!-- icons start -->
+                    <div class="icons">
+                        <i class="fa-brands fa-apple i"></i> 
+                        <i class="fa-brands fa-facebook i"></i>
+                        <i class="fa-brands fa-google i"></i>
+                        <i class="fa-brands fa-twitter i"></i>
+                    </div>
+                    <!-- icons end -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="signIn.js"></script>
+    <script src="fav.js"></script>
+
+</body>
+</html>

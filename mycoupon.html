@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mycoupon.css" />
+    <link rel="stylesheet" href="footer.css">
+    <!-- <link rel="stylesheet" href="navbar.css"> -->
+    <script src="https://kit.fontawesome.com/22fe5662e5.js" crossorigin="anonymous"></script>
+    <title>My Coupons</title>
+
+</head>
+
+<body>
+    <header>
+        <!-- top Navbar -->
+        <header>
+            <nav>
+                <div id="navbar">
+                    <div class="logo">
+                        <h1 class="name">Ban<span>gg</span>ood</h1>
+                        <p>Global leading online shop</p>
+
+
+                    </div>
+                    <div>
+                        <span>
+                            <input type="text" placeholder="Search here" id="search">
+                            <i class="fa-solid fa-magnifying-glass i"></i>
+                        </span>
+                    </div>
+                    <div class="country">
+                        <span>
+                            <img src="https://cdn.pixabay.com/photo/2012/04/10/23/03/india-26828__340.png" />
+                            <!-- yahan par indian flag ki png use hogi -->
+                            <p class="ship">ship to</p>
+                        </span>
+                        <p class="ship india">INDIA</p>
+                    </div>
+                    <div class="userInfo">
+                        <i class="fa-solid fa-user i"></i>
+                        <p class="hello">Hello</p>
+                        <p id="userName">---</p>
+                        <div class="menu">
+                            <p class="signIn">Sign In</p>
+                            <p class="joinUs">Join us</p>
+                            <div class="sub-menu">
+                                <p>My Orders</p>
+                                <p>My Wishlist</p>
+                                <p>My Coupons</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <a href="carts.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <div class="total">
+                            <p class="total-item"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories">
+                    <p id="gotoMen">Men's</p>
+                    <p id="gotoWomen">Women's</p>
+                    <p id="gotoShoes">Shoes's</p>
+                    <p id="gotoSports">Sports's</p>
+                    <p id="gotoElectronics">Electronics's</p>
+                </div>
+            </nav>
+
+
+
+        </header>
+        <br><br><br>
+        <div id="container">
+            <!-- start with the main container  -->
+            <div class="box">
+                <!-- box under the top navbar  -->
+                <div>
+                    <!-- this div is use for box inside box so that we can adjust p text -->
+                    <p></i>Home &nbsp;<i class="fa-solid fa-angle-right"></i>
+                        My Account &nbsp;<i class="fa-solid fa-angle-right"></i>
+                        <b><span style="color:black;">My Coupon</span> </b>
+                    </p>
+                </div>
+            </div>
+            <div id="container1">
+                <!-- here is the second container for navbar and coupon box -->
+                <div class="navbar">
+                    <!-- here is navbar box -->
+                    <h3>My Account</h3>
+                    <h5>My Trade</h5>
+                    <a href="myorder.html" target="_self"><i class="fa-solid fa-receipt"></i> My Order</a>
+                    <a href="" target="_self"><i class="fa-solid fa-clipboard-check"></i>Pre Order</a>
+                    <a href="" target="_self"><i class="fa-solid fa-bag-shopping"></i>Snatch Record</a>
+                    <a href="" target="_self"><i class="fa-solid fa-user-group"></i>Group Buy</a>
+                    <h5>My Assets</h5>
+                    <a href="" target="_self"><i class="fa-brands fa-get-pocket"></i>BGpay</a>
+                    <a href="" target="_self"><i class="fa-solid fa-rug"></i>My Coupons</a>
+                    <a href="" target="_self"><i class="fa-solid fa-coins"></i>My Points</a>
+                    <a href="" target="_self"><i class="fa-solid fa-gift"></i>My Gift Cards</a>
+                    <a href="" target="_self"><i class="fa-solid fa-heart"></i>My wishlist</a>
+                    <a href="" target="_self"><i class="fa-solid fa-gear"></i>Account Setting</a>
+
+
+                </div>
+                <div class="coupon">
+                    <!-- here is a coupon the box -->
+
+                    <div class="box21">
+                        <!-- top box of coupon box  -->
+                        <div>
+
+                            <!-- inside the top box with All,coupon , Allowance -->
+
+                            <div><a href="">All(0)</a></div>
+                            <div><a href="">Coupon(0)</a></div>
+                            <div> <a href="">Allowance(0)</a></div>
+
+
+                        </div>
+                        <div>
+                            <div>
+                                <a href="">Get More Coupons </a> <span> &nbsp;<i class="fa-solid fa-angle-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box22">
+                        <div>
+
+                            <button>Available</button>
+                            <button>Used</button>
+                            <button>Expired</button>
+                        </div>
+                    </div>
+
+                    <div class="box23">
+                        <div>
+                            <div>Sort By:</div>
+                            <div><a href="">Popular</a></div>
+                            <div><a href="">Discount</a></div>
+                            <div> <a href="">Time</a></div>
+
+                        </div>
+                    </div>
+
+                    <div class="box24">
+                        <div class="show1">
+                            <img src="https://www.pngall.com/wp-content/uploads/2018/04/Coupon-PNG-Pic.png" />
+                            <br>
+                            <p id="show"></p>
+
+                        </div>
+
+
+
+                        <div class="box25">
+                            <input type="text" id="promo" value="" /> <br><br>
+                            <button id="coupon"> Apply &nbsp; <i class="fa-solid fa-angle-right"></i>
+                            </button>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <h2>
+            <marquee> <strong>NOTE : </strong>Guys! Hurry Up before the coupon Expire.
+            </marquee>
+        </h2>
+        <div class="foot1">
+            <div id="footer">
+                <div class="nav5">
+                    <div class="aa">
+                        <h5>Get To Know Us</h5>
+                        <a href="">About banggood.in</a>
+                        <a href="">Guarantees & Return Policy</a>
+                        <a href="">Contact Us</a>
+                        <a href="">Help Center</a>
+                        <a href="">Site Map</a>
+                        <a href="">Intellectual Property Claims</a>
+
+                        <h5>Subscribe</h5>
+                        <p>By subscribing you agree to receive email from us.
+                            Please read our <a href="">Privacy Policy</a></p>
+
+                        <input type="text" value="" placeholder="Email Address" id="enterMail" />
+
+                    </div>
+                    <div class="payment">
+                        <h5>Payment & Shipping</h5>
+                        <a href="">Payment Methods</a>
+                        <a href="">BGpay Intruction</a>
+                        <a href="">Shipping Guide</a>
+                        <a href="">Location We Ship To</a>
+                        <a href="">Estimated Delivery Time</a>
+
+                        <h5>Partnership Programs</h5>
+                        <a href="">Drop shipping</a>
+                        <a href="">Review Club</a>
+                        <a href="">Affiliate Program</a>
+                        <a href="">Wholesale Program</a>
+                        <a href="">Fashion Blogger Program</a>
+
+                    </div>
+                    <div class="social">
+                        <h5>Download App</h5>
+                        <div class="icon1">
+                            <div><i class="fa-brands fa-apple fa-2x"></i></div>
+                            <div> <i class="fa-brands fa-android fa-2x"></i></div>
+                            <div><i class="fa-solid fa-qrcode"></i>QR Code <i class="fa-solid fa-caret-down"></i></div>
+                        </div>
+
+
+                        <h5>Follow Us</h5>
+                        <div class="icon2">
+                            <div> <a href=""><i class="fa-brands fa-facebook fa-1x"></i></a></div>
+                            <div><a href=""> <i class="fa-brands fa-instagram fa-1x"></i></a></div>
+                            <div><a href=""> <i class="fa-brands fa-youtube fa-1x"></i></a></div>
+                            <div><a href=""><i class="fa-brands fa-twitter fa-1x"></i></a></div>
+                            <div><a href=""> <i class="fa-brands fa-pinterest fa-1x"></i></a></div>
+                            <div> <a href=""><i class="fa-brands fa-tiktok fa-1x"></i></a></div>
+                            <div><a href=""> <i class="fa-brands fa-vk fa-1x"></i></a></div>
+                            <div><a href=""><i class="fa-brands fa-blogger-b fa-1x"></i></a></div>
+                            <div><a href=""><i class="fa-brands fa-reddit-alien fa-1x"></i></a></div>
+                            <div> <a href=""><i class="fa-brands fa-telegram fa-1x"></i></a></div>
+                            <div><a href=""><i class="fa-brands fa-whatsapp fa-1x"></i></a></div>
+                        </div>
+
+
+                        <p class="copyright"><i class="fa-solid fa-copyright"></i>
+                            2006-2022 BANGGOOD</p>
+                        <div class="terms">
+                            <a href="">TERMS </a>
+                            <a href="">PRIVACY</a>
+                            <a href="">SPECIALIZED AFFAIRS</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="nav2">
+                <img
+                    src="https://www.paypalobjects.com/webstatic/mktg/logo-center/PP_Acceptance_Marks_for_LogoCenter_76x48.png" />
+                <img src="https://usa.visa.com/dam/VCOM/global/about-visa/images/logo-olympics-800x450.jpg" />
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAgCAMAAABq4atUAAAAhFBMVEX3nhvrABv/////XwD+7/D958XsDyj5tlT82qn/+fDwP1P+8+L+awXyIxD7zozwFxT5r7f1f4zyX2/uL0X9bwb+7dT3pCn93+L3mRn6hhD+WQH81Jr5vGHtHzb4r0X94Lf7z9T1Lw35QQj8egv0b376v8X2kJv2X0P6wnD5ihL4bE74nyWXYNIuAAABPklEQVQ4jZ2V61KDMBCFFwIkBEWgAloubZXWqu//fnInJSd2yvnFZPLNHnaTE7IXRYncWVYlm2heSouSE2WcF4GykaaPPLEWebHTrR1aYFYt1pATW7fyLnagIp24ewPlO0vT1y9pEgp09HTmmT296dR1hhzIMEiFI+QAby+s06sO0WGA1j3otO8h9q5Dmd9BOTB3GhiTQbITnZkK4VJBCxm6MJYCf1XYFIFCHzPEgD9uE3K3MMgf+SRN/R70CSCXjENixlG5BNzdg8ItULHN3qZGNMDffoFwyx8fbrnxGD1+YP0WQvf29E+h8N4l/IaF+owwjgr2OxVDsFS4F+jeiiXCIGUMozEsUSD96GGZqWHZKl710ItALKfrB8BJFKy69A+AWypIPSW5ArU6N1J6npTxeV4KxJXXVPNS+MrGP15ME2pz0EKIAAAAAElFTkSuQmCC" />
+                <img src="https://www.rupay.co.in/images/rupay/header-logo.png" />
+                <img src="https://www.rupay.co.in/images/rupay/rupay-on-the-go-studio-ipl/banklogo/paytm.png" />
+                <img src="https://www.rupay.co.in/images/rupay/rupay-on-the-go-studio-ipl/banklogo/sbi-card.png" />
+                <img src="https://www.rupay.co.in/images/rupay/rupay-on-the-go-studio-ipl/banklogo/pnb.png" />
+                <img src="https://www.rupay.co.in/images/rupay/rupay-on-the-go-studio-ipl/banklogo/transerv.png" />
+                <img src="https://www.rupay.co.in/images/rupay/rupay-on-the-go-studio-ipl/banklogo/paypoint.png" />
+                <img src="https://www.rupay.co.in/images/rupay/rupay-on-the-go-studio-ipl/banklogo/yesbank.png" />
+                <img src="https://www.rupay.co.in/images/rupay/rupay-on-the-go-studio-ipl/banklogo/zokodu.png" />
+                <img
+                    src="https://www.rupay.co.in/images/rupay/rupay-on-the-go-studio-ipl/banklogo/kotak-mahindra.png" />
+                <img src="https://www.rupay.co.in/images/rupay/rupay-on-the-go-studio-ipl/banklogo/fino.png" />
+            </div>
+        </div>
+</body>
+
+</html>
+
+<script src="mycoupon.js"></script>
+<script src="fav.js"></script>

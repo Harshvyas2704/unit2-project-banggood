@@ -1,0 +1,289 @@
+body {
+
+  background-color:
+    #f5f5f5;
+}
+
+.nav {
+  height: 56px;
+  width: 100%;
+  display: flex;
+  background-color: black;
+}
+
+.div2 {
+  height: 56px;
+  width: 100%;
+  margin-top: 0px;
+  border: 1px solid black;
+
+}
+
+.topnav {
+  overflow: hidden;
+  padding-top: 25px;
+  padding-left: 50px;
+
+  font-weight: bold;
+
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.topnav a:hover {
+
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.topnav a.active {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+
+}
+
+.topnav a.myaccount {
+  font-size: 12px;
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.topnav a.myor {
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 5px;
+  margin-left: 10px;
+  padding-right: 5px;
+}
+
+.sidebar {
+  height: 1395px;
+  width: 200px;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-left: 50px;
+  background-color: white;
+  font-family: Arial, open;
+  padding-top: 3px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: black;
+
+}
+
+.sidebar a {
+  padding: 25px 8px 6px 16px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+
+}
+
+.sidebar a:hover {
+  color: red;
+  background-position: 0 100%;
+  font-style: italic;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+
+
+.bigcontainer {
+  width: 949px;
+  height: 536px;
+  margin-left: 262px;
+  background-color: white;
+  margin-top: -87.3rem;
+  border-radius: 4px;
+  font-family: arial, open;
+  font-size: 16px;
+  color: #333;
+  text-indent: 32px;
+  background: #fff;
+  line-height: 62px;
+  margin-right: 118px;
+  font-weight: 700;
+  float: right;
+  padding-left: 20px;
+}
+
+
+.lastdiv {
+  width: 969px;
+  height: 325px;
+  margin-left: 261px;
+  margin-top: -53.3rem;
+  background-color: white;
+  border-radius: 4px;
+
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 11px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 194px;
+  border-radius: 4px;
+  margin-left: 376px;
+  background-color: #ff6a27;
+  cursor: pointer;
+  font-family: Arial, open;
+  font-weight: bold;
+}
+
+.subdiv {
+  width: auto;
+  height: 114px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+img {
+  margin-right: 5px;
+  padding: auto;
+}
+
+img:hover {
+  border-image: red;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 4px;
+  font-family: Arial, open;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 15px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #818181;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  cursor: pointer;
+}
+
+.fa-solid fa-greater-than {
+  font-size: 12px;
+  margin-right: 35px;
+}
+
+.sbox {
+  /* border: 1px solid black; */
+  border-radius: 4px 0px 0px 4px;
+  height: 25.5px;
+  width: 331px;
+  margin-top: 10px;
+  font-weight: lighter;
+  color: gray;
+
+}
+
+.imgwala {
+
+  /* height: 90; */
+  width: auto;
+  display: grid;
+  border-radius: 4px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 250px);
+  gap: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.imgin1 {
+
+  border-radius: 5px;
+  display: flex;
+  background-color: #f3f3f3;
+
+  justify-content: center;
+}
+
+.imgin2 {
+
+  border-radius: 5px;
+  display: flex;
+  background-color: #f3f3f3;
+
+  justify-content: center;
+}
+
+.imgin3 {
+
+  border-radius: 5px;
+  display: flex;
+  background-color: #f3f3f3;
+
+  justify-content: center;
+}
+
+.hr1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  margin-left: 30px;
+  margin-right: 26px;
+  color: grey;
+}
+
+.ymal {
+  font-size: 20px;
+  color: #333;
+  font-family: Arial, open;
+  font-weight: bold;
+  padding-left: 29px;
+  padding-top: 25px;
+  margin-bottom: -17px;
+  height: 50px;
+  width: auto;
+}
+
+.h2,
+.h3 {
+  color: black;
+}
+
+.h5 {
+  font-family: open sans, arial;
+  font-size: 12px;
+}

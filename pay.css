@@ -1,0 +1,145 @@
+
+
+
+/* main container starts */
+#container{
+    display:flex;
+    margin: auto;
+    width: 95%;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+#container div{
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-left: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+#container>div:nth-child(1){
+    grid-area: a;
+    
+}
+#container>div:nth-child(2){
+    grid-area: b;
+}
+
+/* container ends */
+
+/* Address box starts */
+ #addressBox
+ {
+     padding: 20px;
+ }
+#addressBox>form{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 40px;
+     padding-left: 70px;
+     padding-right: 70px;
+     
+}
+
+input{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-color: rgb(102, 9, 9);
+    padding: 5px;
+    border-radius: 8px;
+}
+select{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    
+}
+
+#address >input:last-child{
+    border: 0;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 280px;
+    color: white;
+    cursor: pointer;
+    background-color:#ff6a27;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+}
+#address >input:last-child:hover{
+    background-color: rgb(119, 133, 133);
+}
+
+/* Address box starts */
+
+/* debit card section starts */
+#CardDetails
+{
+    padding: 20px;
+    
+}
+#CardDetails h3
+{
+    margin-bottom: 15px;
+}
+#card{
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    padding-right: 80px;
+    line-height: 2;
+    font-size: 14px;
+    
+}
+
+#card >input:last-child{
+    border: 0;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    background-color:#ff6a27;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    margin-top: 30px;
+    
+   
+}
+#address >input:last-child:hover{
+    background-color: rgb(119, 133, 133);
+}
+
+label{
+    color: gray;
+    font-weight: bold;
+    
+
+}
+#cardName
+{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+#cardNo
+{
+    margin-bottom: 15px;
+}
+#cvv
+{
+    margin-bottom: 15px;
+}
+#m1
+{
+    margin-bottom: 15px;
+}
+/* debit card section ends */
+
+
+
+
+
+

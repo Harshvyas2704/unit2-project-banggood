@@ -1,0 +1,312 @@
+
+/* button My cart starts*/
+/* #cart-btn{
+    background-color: #2d2d38;
+    border: 0;
+}
+#next{
+    color: white;
+    font-weight: bold;
+} */
+/* button My cart ends */
+
+
+/* Mens Data starts */
+        #container{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: auto;
+            gap: 15px;
+            width: 95%;
+            margin: auto;
+            margin-top: -75px;
+            
+        }
+        #container>div>div{
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+            
+        }
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        box1 p+p{
+            text-decoration: line-through;
+        }
+        #container>div{
+            
+            line-height: 0.1;
+            padding-bottom: 10px;
+            font-family: sans-serif;
+            margin-bottom: 10px;
+        }
+
+        img+p{
+            margin-left: 15px;
+            color: gray;
+        }
+
+        p+div{
+            margin-left: 15px;
+            color: #ff6e26; 
+            font-weight: bold;
+        }
+
+        div+h5{
+            margin-left: 15px;
+        }
+
+        h5+button{
+            margin-left: 15px;
+            background-color:#ff6a27;
+            color: white;
+            border: 0;
+            border-radius: 5px;
+            font-weight: bold;
+
+        }
+        h5+button:hover{
+            background-color: rgb(184, 95, 95);
+        }
+
+/* Mens Data ends */
+
+
+
+/* header starts */
+        #header{
+            display:flex;
+            gap: 10px;
+            width: 95%;
+            /* border: 1px solid; */
+            margin: auto;
+            justify-content: space-between;
+            gap: 15px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }    
+        .div1
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        #header>div:nth-child(1){
+        /* border: 1px solid red; */
+        width: 18%;
+        box-sizing: border-box;
+        padding: 30px;
+        line-height: 4;
+        }
+
+        #header img{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 100%;
+        }
+
+        #header div{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        #header p{
+            color: gray;
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+        
+        #header p:hover{
+            color: rgb(76, 30, 184);
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+/* header ends */
+
+
+/* heading Recommendined for you starts */
+        #recommend{
+            width: 60%;
+            height: 50px;
+            display: flex;
+            margin-left: 35px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        #recommend div{
+            width: 35%;
+            height: 50px;
+            font-family: sans-serif;
+
+        }
+
+        #recommend div+div{
+            margin-top: 10px;
+            color: gray;
+            font-family: sans-serif;
+        }
+
+/* heading Recommendined for you ends */
+
+/* flash deals starts */
+        #container1{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 10px;
+            margin: auto;
+            width: 90%;
+            padding-bottom: 15px;
+        }
+        #outerbox{
+            width: 95%;
+            margin: auto;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 10px;
+        }
+
+        #outerbox div img+p{
+            font-family: sans-serif;
+            font-weight: bold;
+            color: black;
+        }
+
+        #flashDealHead{
+            display: flex;
+            width: 95%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+        }
+        #flashDealHead>div{
+            margin-left: 70px;
+            font-family: sans-serif;
+        }
+
+        #seemore{
+            font-family: sans-serif;
+            text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+            color:gray;
+            text-decoration: solid;
+        }
+        #count{
+            padding-left: 10px;
+            color: #ff4733;
+        }
+        .strikeoff{
+            text-decoration: line-through;
+        }
+        #iconflash{
+            color:#ff4733;
+        }
+/* flash deals ends */
+
+
+/* New Arrival starts */
+            #container2{
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                gap: 10px;
+                margin: auto;
+                width: 90%;
+                padding-bottom: 15px;
+
+            }
+
+            #outerbox1{
+                width: 95%;
+                margin: auto;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                border-radius: 10px;
+                margin-top: 20px;
+            }
+
+
+            #outerbox1 div img+p{
+                font-family: sans-serif;
+                font-weight: bold;
+                color: black;
+            }
+
+            #newArrivalHead{
+                display: flex;
+                width: 95%;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px;
+            }
+            #newArrivalHead>div{
+                margin-left: 70px;
+                font-family: sans-serif;
+            }
+
+            #NewArrivalSrtikeoff{
+                text-decoration: line-through;
+                color: gray;
+                padding-left: 15px;
+            }
+
+/* New Arrival ends */
+
+/* heading starts */
+        #heading{
+            display: flex;
+            align-items: center;
+            width: 95%;
+            margin: auto;
+            margin-top: 30px;
+        }
+        #heading>div+div{
+            margin-left: 20px;
+            color: gray;
+            margin-top: 6px;
+        }
+
+        #heading>div{
+            color: #fc7c36;
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+/* heading ends */
+
+
+/* All the filters starts*/
+        #filters{
+            display: flex;
+            width: 95%;
+            margin: auto;
+            margin-bottom: 100px;
+            
+        }
+
+        #filters>div+div{
+            margin-left: 20px;
+        } 
+
+        #category{
+            background-color: #ff6e26;
+            border: 0;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        #price{
+            background-color: #ff6e26;
+            border: 0;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+
+        }
+/* All the filters ends */
+
+
+
+

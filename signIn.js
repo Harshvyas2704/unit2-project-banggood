@@ -17,6 +17,7 @@ function storeUserData()
         localStorage.setItem("userRegisterData", JSON.stringify(registerData))
         document.querySelector("#userEmail").value = ""
         document.querySelector("#userPassword").value = ""
+        window.location.reload()
     }
     else
     {

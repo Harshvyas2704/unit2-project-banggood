@@ -1,0 +1,163 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 24px; */
+}
+body
+{
+    background-color: whitesmoke;
+}
+
+/* main start */
+.first
+{
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.items
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 380px;
+    width: 200px;
+    /* border: 1px red solid; */
+    margin-right: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.items a
+{
+    text-decoration: none;
+}
+.items p
+{
+    margin-left: 15px;
+    color: rgb(0,0,0,0.5);
+    font-size: 18px;
+}
+.img img
+{
+    width: 700px;
+    height: 380px;
+    margin-right: 13px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.acc-info
+{
+    height: 370px;
+    width: 250px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.acc-info img
+{
+    height: 100px;
+    margin-left: 75px;
+    border-radius: 50px;
+}
+.icon
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.icon i
+{
+    align-items: center;
+    margin-left: 14px;
+}
+.icon p
+{
+    font-size: 14px;
+}
+.list
+{
+    margin-top: 4px;
+}
+.ul
+{
+    margin-left: 20px;
+}
+.li
+{
+    margin-top: 12px;
+}
+.newArrivals
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 61px;
+    margin-top: 35px;
+    background-color: white;
+    width: 90vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.newArrivals p
+{
+    padding: 8px;
+    font-size: 24px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.newArrivals .seeMore
+{
+    font-size: 18px;
+    margin-right: 10px;
+    color: black;
+}
+.newArrivals a
+{
+    text-decoration: none;
+    color: rgb(197, 31, 31);
+}
+#container_man
+{
+    margin: auto;
+    display: flex;
+    width: 90vw;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+#container_woman
+{
+    margin: auto;
+    display: flex;
+    width: 90vw;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+#container_shoes
+{
+    margin: auto;
+    display: flex;
+    width: 90vw;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+#container_sports
+{
+    margin: auto;
+    display: flex;
+    width: 90vw;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+#container_electronics
+{
+    margin: auto;
+    display: flex;
+    width: 90vw;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}

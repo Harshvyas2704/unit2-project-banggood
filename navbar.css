@@ -1,0 +1,184 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'OpenSans', Arial;
+}
+body
+{
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+.navbar
+{
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2d2d38;
+    width: 100vw;
+    height: 110px;
+
+}
+.name
+{
+    font-size: 35px;
+    color: white;
+    padding-top: 6px;
+    cursor: pointer;
+}
+.name > span
+{
+    font-size: 35px;
+    color: #ff6e26;
+    font-family: sans-serif;
+}
+.logo > p
+{
+    color: rgb(255,255,255, 0.5);
+    font-size: 12px;
+}
+.logo a
+{
+    text-decoration: none;
+}
+/* search bar style start */
+#search
+{
+    height: 32px;
+    margin-top: 12px;
+    width: 536px;
+    border-radius: 5px;
+    padding: 4px;
+    padding-left: 8px;
+}
+/* search bar style end */
+/* search icon style */
+.i
+{
+    margin-top: 5px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.country
+{
+    margin-top: 10px;
+}
+.country span
+{
+    display: flex;
+}
+.country img
+{
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+.ship
+{
+    color : rgb(255,255,255, 0.5);
+    font-size: 12px;
+}
+.userInfo
+{
+    margin-top: 12px;
+}
+
+.hello
+{
+    color : rgb(255,255,255, 0.5);
+    font-size: 12px;
+    display: inline-block;
+}
+.india
+{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#userName
+{
+    color: white;
+    font-size: 14px;
+}
+.menu
+{
+    width: 200px;
+    height: 200px;
+    border: 1px white solid;
+    display: none;
+    margin-left: -80px;
+    background-color: white;
+    /* z-index: 5000; */
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.signIn
+{
+    background-color: #ff6e26;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 12px;
+
+}
+.joinUs
+{
+    background-color: rgb(240, 190, 147);
+    text-align: center;
+    color: #ff6e26;
+    padding: 5px;
+    margin: 12px;
+}
+.sub-menu
+{
+    
+    padding: 5px;
+    margin: 12px;
+    
+}
+.sub-menu p
+{
+    color: rgb(43, 40, 40);
+    /* text-align: center; */
+    margin-top: 5px;
+}
+.cart
+{
+    font-size: 28px;
+    color: white;
+    margin-top: 18px;
+    display: flex;
+    cursor: pointer;
+}
+.cart a
+{
+    color: white;
+}
+.total-item
+{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -20px;
+    margin-left: -8px;
+    color: #ff6e26;
+    z-index: 1;
+    background-color: white;
+    border-radius: 60px;
+    box-sizing: border-box;
+}
+.categories
+{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.categories p
+{
+    margin-top: -30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

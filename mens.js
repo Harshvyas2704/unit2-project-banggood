@@ -301,8 +301,15 @@ function displyData(mensData) {
 //Storing the data which we want add to cart in local storage with unique key
 
 function addToCart(elem) {
-    cartData.push(elem)
-    localStorage.setItem("cart", JSON.stringify(cartData))
+    if(localStorage.getItem("cart")===null){
+        localStorage.setItem("cart", JSON.stringify([]))
+        
+    }
+    let cart = JSON.parse(localStorage.getItem("cart"))
+    
+    cart.push(elem)
+    localStorage.setItem("cart", JSON.stringify(cart));
+    
 }
 
 //flash deal array of object 

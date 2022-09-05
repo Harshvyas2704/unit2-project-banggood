@@ -22,7 +22,7 @@ We had a time frame of a week . This was the first Peer Programming for all of u
 | Text Color | #656570 |
 | BG -Color | #F5F5F5 |
 | Button  Color |#fa730d |
-| Box   Color | #ffffff |
+| Box   Color | #ffffff  |
 
  Banggood E-commerce Website Clone
 
